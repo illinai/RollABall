@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    public Rigidbody sphereRigidbody;
+    [SerializeField] private Rigidbody sphereRigidbody;
+    [SerializeField] private float ballSpeed = 2f;
 
-    
     void Start()
     { }
 
